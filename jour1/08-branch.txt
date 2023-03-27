@@ -1,0 +1,19 @@
+1 ---
+git branch menu // permet de créer la branch menu (qui est un monde parallèle à la branch principale)
+git checkout menu // déplacer dans la branch principale branch menu
+
+2 ---
+travailler sur la branch
+git add --all
+git commit -m "..." sur cette branch
+
+3a ---
+si on est content
+git checkout master / main // se déplacer sur la branch principale 
+git merge menu // fusionner la branch principale avec la branch menu 
+git branch -d menu // supprimer la branch menu 
+
+3b ---
+si n'est pas content 
+git checkout master / main // se déplacer sur la branch principale 
+git branch -D menu // supprimer la branch menu sans la fusionner
