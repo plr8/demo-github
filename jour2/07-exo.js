@@ -1,3 +1,3 @@
-calcul(a, b){
+function calcul(a, b){
     return a * b
 }
