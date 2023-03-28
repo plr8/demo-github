@@ -1,19 +1,68 @@
-1 ---
-git branch menu // permet de créer la branch menu (qui est un monde parallèle à la branch principale)
-git checkout menu // déplacer dans la branch principale branch menu
 
-2 ---
+git log --oneline 
+git reset <id log oneline>
+
+=> au lieu d'utiliser get reset 
+// il est conseillé d'utiliser git branch 
+
+// jusqu'à maintenant => 
+
+git add 
+git commit 
+
+ils sont été réalisés sur la branch main / master 
+
+=> git branch (monde parallèle)
+
+=> pour l'instant vous avez travaillé sur la principale du 
+projet (main/ master)
+
+=> sur la branch main => créer une branch parallèle 
+donner un nom et positionner dessus 
+
+travailler et réaliser des add et des commit 
+
+si on n' est pas content => sortir de la branch (
+    et retour sur branch principale) 
+    sans supprimer les travaux réalisés sur la branch 
+
+si on est content => fusionner la branch sur laquelle on travaille avec la branch principale 
+
+0 verifier que l'ensemble des fichiers soient commits sur la branch principale
+git add --all
+git commit -m "finaliser branch" 
+git status => nothing to commit 
+
+1 ---------
+git branch menu  // permet de créer la branch menu (qui est un monde parallèle à la branch principale)
+git checkout menu  // déplacer dans la branch principale => branch menu 
+git branch // pour savoir sur quelle branch je travaille 
+
+2 -----------
 travailler sur la branch
 git add --all
-git commit -m "..." sur cette branch
+git commit -m "....." sur cette branch 
 
-3a ---
-si on est content
+lorsque vous voulez revenir sur la branch principale 
+il faut au préalable QUE que les fichiers sur la branch soient
+à 100% staged 
+
+3a -----------
+si on est content 
 git checkout master / main // se déplacer sur la branch principale 
 git merge menu // fusionner la branch principale avec la branch menu 
 git branch -d menu // supprimer la branch menu 
 
-3b ---
+3b -----------
 si n'est pas content 
-git checkout master / main // se déplacer sur la branch principale 
-git branch -D menu // supprimer la branch menu sans la fusionner
+git checkout master / main // se déplacer sur la branch principale
+git branch -D menu // supprimer la branch menu sans la fusionner 
+
+git merge menu 
+
+Updating 3a41483..feb7da0
+Fast-forward
+ jour1/08-branch.txt       |  6 ++++++
+ jour1/09-autre-fichier.js | 17 +++++++++++++++++
+ 2 files changed, 23 insertions(+)
+ create mode 100644 jour1/09-autre-fichier.js
