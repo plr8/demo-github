@@ -1,0 +1,3 @@
+calcul(a, b){
+    return a + b
+}
