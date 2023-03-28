@@ -1,8 +1,17 @@
-h1 {
-font-size: 40px;
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+nav a{
+    margin-right: 20px;
+    text-decoration: none;
+    font-weight: bold;
 }
 
-form {
-    padding:50px;
-    width:400px;
-    }
+input[type="email"]{
+    margin-right: 20px;
+}
+input[type="submit"]{
+    border: 2px solid red;
+}
