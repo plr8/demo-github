@@ -4,3 +4,4 @@ a stash => planque (cachette)
 
 git stash permet de cacher tout le code que vous avez écrit pour le stocker edans en mémoire hors des commit et hors des branch
 
+Exo stash1

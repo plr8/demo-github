@@ -11,3 +11,5 @@ https://github.com/Gropacha/doranco-entrainement-github
 
 > fork
 > copier le projet => dans mon espace (dans lequel j'ai tous les droits)
+
+Exo stash1
