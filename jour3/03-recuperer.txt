@@ -12,4 +12,4 @@ git clone => si vous voulez récupérer un projet distant intégralement
           
 git add --all
 git commit -m "préparation"
-git push github main
+git push github master
