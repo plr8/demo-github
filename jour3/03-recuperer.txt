@@ -13,3 +13,14 @@ git clone => si vous voulez récupérer un projet distant intégralement
 git add --all
 git commit -m "préparation"
 git push github master
+
+-------
+
+git fetch github master
+git merge github/master
+
+--------
+
+projet à 100% nouveau (je n'ai pas de local en dossier / .git)
+et je veux le récupérer à 100%
+=> git clone
