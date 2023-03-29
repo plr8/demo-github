@@ -1,0 +1,11 @@
+git push => envoyer de local => distant
+
+récupérer des informations qui sont sur le remote => local
+
+git pull  => récupérer ET faire un commit
+          = git fetch + git merge (créer un commit en local)
+git fetch => récupérer les informations
+
+git clone => si vous voulez récupérer un projet distant intégralement
+          => vous n'avez aucun fichier source en local  
+          => source (fichier de code) ET .git
