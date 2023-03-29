@@ -9,3 +9,7 @@ git fetch => récupérer les informations
 git clone => si vous voulez récupérer un projet distant intégralement
           => vous n'avez aucun fichier source en local  
           => source (fichier de code) ET .git
+          
+git add --all
+git commit -m "préparation"
+git push github main
